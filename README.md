@@ -1,2 +1,2 @@
 # Yule-Simon-Networks
-Inference for Yule-Simon Graphs
+Inference Algorithm for Yule-Simon Networks
