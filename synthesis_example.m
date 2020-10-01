@@ -1,7 +1,7 @@
 % ----------------------------------
 % Synthesize Example Data Set 
 % ----------------------------------
-function [y,alpha,A,x] = synthesis_example(N,SEED,A,alpha)
+function [y,x] = synthesis_example(N,SEED,A,alpha)
 
 % Set Random Number Generator
 rng(SEED);

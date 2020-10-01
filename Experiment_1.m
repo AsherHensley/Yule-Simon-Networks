@@ -13,7 +13,7 @@ A = [                   % Adjacency Matrix
     0.0, 0.0, 0.0];
 
 % Synthesize Data Set
-[y,alpha,A,xtrue] = synthesis_example(N,seed,A,alpha);
+[y,xtrue] = synthesis_example(N,seed,A,alpha);
 
 % Run Gibbs Sampler(s)
 ngibbs = 2000;
